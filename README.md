@@ -28,7 +28,11 @@
 3. Install Sysmon + config file
 4. Configure Splunk to ingest Sysmon logs
 5. Analyze logs using Splunk queries
-6. Build dashboards & configure alerts
+-  ![](./search1)
+-  ![](./search)
+7. Build dashboards & configure alerts
+- ![](./Alerts)
+- ![](,/Dashboard)
 
 ---
 
