@@ -2,7 +2,7 @@
 
 ##  Objectives
 
-- Learn to install and configure **Splunk** on a Windows VM
+- To install and configure **Splunk** on a Windows VM
 - Deploy **Sysmon** to collect detailed system logs
 - Forward logs to Splunk and analyze them using queries
 - Create alerts and dashboards to detect suspicious behavior
@@ -32,7 +32,7 @@
 
 ---
 
-## 🕵️ Sample Detection Use Cases
+##  Sample Detection Use Cases
 
 | Use Case                    | Splunk Query Example |
 |-----------------------------|----------------------|
