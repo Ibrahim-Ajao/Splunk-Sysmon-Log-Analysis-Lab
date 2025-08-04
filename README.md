@@ -28,11 +28,13 @@
 3. Install Sysmon + config file
 4. Configure Splunk to ingest Sysmon logs
 5. Analyze logs using Splunk queries
--  ![](./search1)
--  ![](./search)
+   ![](./search1.jpg)
+   ![](./search.jpg)
 7. Build dashboards & configure alerts
-- ![](./Alerts)
-- ![](,/Dashboard)
+   ![](./Alert.jpg)
+   ![](./Dashboard.jpg)
+   
+ 
 
 ---
 
@@ -42,6 +44,5 @@
 |-----------------------------|----------------------|
 | PowerShell encoded command  | index=endpoint CommandLine="*enc*" |
 | Process Creation (Event 1)  | index=endpoint EventCode=1 |
-| Rare Parent-Child Process   | index=endpoint Image="*cmd.exe" ParentImage!="explorer.exe" |
 
 ---
