@@ -28,15 +28,10 @@
 3. Install Sysmon + config file
 4. Configure Splunk to ingest Sysmon logs
 5. Analyze logs using Splunk queries
-   ![](./search1.jpg)
-   ![](./search.jpg)
-7. Build dashboards & configure alerts
-   ![](./Alert.jpg)
-   ![](./Dashboard.jpg)
-   
- 
 
----
+7. Build dashboards & configure alerts
+  
+
 
 ##  Sample Detection Use Cases
 
@@ -44,5 +39,15 @@
 |-----------------------------|----------------------|
 | PowerShell encoded command  | index=endpoint CommandLine="*enc*" |
 | Process Creation (Event 1)  | index=endpoint EventCode=1 |
+
+## Pictures
+
+   ![](./search1.jpg)
+   ![](./search.jpg)
+## Results from splunk queries
+
+ ![](./Alert.jpg)
+ ![](./Dashboard.jpg)
+## Alerts and Dashboard 
 
 ---
